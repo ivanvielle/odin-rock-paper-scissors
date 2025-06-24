@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 16px;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    padding: 32px;
+}
+
+.btn-selection {
+    padding: 16px;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#rockBtn {
+    background-color: #2d2c2c;
+    color: white;
+}
+
+#paperBtn {
+    background-color: #eeeeff;
+}
+
+#scissorsBtn {
+    background-color: #ff0000;
+    color: white;
+}
+
+#results {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 120px;
+    width: 480px;
+
+    background-color: black;
+    color: green;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+}
